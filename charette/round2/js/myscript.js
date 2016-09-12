@@ -337,11 +337,15 @@ $(document).ready(function() {
 		$(this).addClass("animated" );
 		$(this).addClass("pulse" );
 
+		});
+
 
 	$('#box37').click(function() {
 		$(this).addClass("animated" );
 		$(this).addClass("jello" );
 		$(this).addClass("infinite" );
+
+		});
 		
 
 	$('#box38').click(function() {
@@ -350,6 +354,8 @@ $(document).ready(function() {
 		$(this).animate({borderRadius:'15px'} ,'fast');
 		$(this).addClass("animated" );
 		$(this).addClass("rotateOutUpRight" );
+
+		});
 
 	$('#box39').click(function() {
 		$(this).addClass("animated" );
@@ -421,14 +427,8 @@ $(document).ready(function() {
 		$(this).addClass("animated" );
 		$(this).addClass("jello" );
 		$(this).addClass("infinite" );
-		});
 
-
-
-
-
-
-
+	});
 
 
 });
